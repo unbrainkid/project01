@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src:url(../fonts/YesevaOne-Regular.ttf)
+}
+
 body{
     margin: 0;
     font-family: Nunito Sans, Arial;
@@ -13,13 +23,42 @@ body * {
 }
 .button {
     background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    margin-right: 20px;
+    border: 1px solid #E3B873;
     border-radius: 2px;
-    outline:0;
-    border:0;
     padding: 13px 33px;
-    color:white;
-    text-transform:uppercase;
+       
+}
+.button a{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button2 {
+    background: none;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 13px 33px;
+}
+
+.button2 a{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 .logo{
@@ -27,7 +66,7 @@ body * {
 }
 
 .header{
-    background: #000;
+    background: #131313;
 }
 
 .header-content{
@@ -35,7 +74,18 @@ body * {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
 }
+#num{
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
 .header-navigation{
     list-style: none;
     display: flex;
@@ -48,6 +98,11 @@ body * {
 .header-navigation__item a{
     text-decoration: none;
     color: white;
+}
+
+.header-navigation__item a:hover{
+    color:#E3B873;
+    transition: .5s;
 }
 
 .hero{
@@ -71,8 +126,12 @@ body * {
 }
 
 .hero-container{
-    position: relative;
+    position: absolute;
+    width: 676.11px;
+    height: 305px;
+    left: 134px;
     z-index: 1;
+    
 }
 .title{
     margin: 0;
@@ -82,5 +141,16 @@ body * {
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
+    color: #FFFFFF;
+}
+.titleorg{
+    color:#E3B873;
+}
+.subtitle{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
     color: #FFFFFF;
 }
