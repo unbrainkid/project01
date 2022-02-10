@@ -153,6 +153,10 @@ body * {
     line-height: 27px;
 }
 .page2{
+    display: flex;
+
+}
+.page2_background{
     background: #131313;
     height: 1074px;
     margin: 0 auto;
@@ -166,8 +170,11 @@ body * {
 .page2-navigation{
     margin: 0;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     list-style: none;
+    margin-bottom: 53px;
+
 }
 .mini-title a{
     text-decoration: none;
@@ -186,6 +193,10 @@ body * {
 {
     display: flex;
     flex-direction: column;
+    
+    height: 442px;
+    
+    justify-content:space-between;
 
 }
 
@@ -194,4 +205,42 @@ body * {
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
+}
+
+.page2-info2{
+    display: flex;
+    flex-flow: wrap row;
+    
+    justify-content: space-between;
+}
+
+.page2-info2-title{
+    color:#E3B873;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    
+}
+.page2-info2-subtitle{
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: none;
+}
+.slider-title{
+    position: relative;
+    
+    font-size: 50px;
+}
+.page3{
+    margin: 0 auto;
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.page3-title{
+    font-size: 20px;
+    line-height: 28px;
 }
