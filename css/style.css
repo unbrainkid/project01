@@ -113,10 +113,14 @@ body * {
 }
 
 .hero-container{
-    position: absolute;
-    width: 676.11px;
-    height: 305px;
-    left: 134px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+   
+   
+    
     z-index: 1;
     
 }
@@ -154,6 +158,7 @@ body * {
 }
 .page2{
     display: flex;
+    justify-content: space-between;
 
 }
 .page2_background{
@@ -164,8 +169,7 @@ body * {
 .page2-container
 {
     position: relative;
-    width: 1171px;
-    height: 552.28px;
+    
 }
 .page2-navigation{
     margin: 0;
