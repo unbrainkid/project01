@@ -18,7 +18,7 @@ body * {
 }
 
 .container{
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .button {
@@ -41,24 +41,11 @@ body * {
     color: white;
 }
 
-.button2 {
+.button-white {
     background: none;
     text-decoration: none;
     border: 1px solid #FFFFFF;
-    border-radius: 2px;
-    padding: 13px 33px;
-}
-
-.button2 a{
-    text-decoration: none;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
+        
 }
 
 .logo{
@@ -143,8 +130,15 @@ body * {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.titleorg{
+.title-org{
     color:#E3B873;
+}
+.mini-title{
+    font-size: 14px;
+    line-height: 19px;
+    color: #E3B873;
+    margin-left: 60.5px;
+    margin-top: 107px;
 }
 .subtitle{
     font-family: Nunito Sans;
@@ -153,4 +147,51 @@ body * {
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
+}
+.mini-subtitle{
+    font-size: 14px;
+    line-height: 27px;
+}
+.page2{
+    background: #131313;
+    height: 1074px;
+    margin: 0 auto;
+}
+.page2-container
+{
+    position: relative;
+    width: 1171px;
+    height: 552.28px;
+}
+.page2-navigation{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.mini-title a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 6px;
+}
+
+.mini-title a:hover{
+    color:#E3B873;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+    transition: .5s;
+}
+.page2-info
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page2-title{
+    color:#E3B873;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
 }
