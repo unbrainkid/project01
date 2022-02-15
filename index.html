@@ -75,16 +75,24 @@
             </div>
         </section>
         <section>
-            <div class="page3">
-                    <h3 class="title page3-title">online control</h3>
-                    <div><p>&#8213<img src="img/cam.svg">&#8213</p></div>
-                    <img src="img/image 3.png" width="817" height="434">
-                    <div>&#8213</div>
-                    <p>At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. At any time, you can go to our website and monitor the progress of work in<br>your apartment. You can watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a link to the broadcast.</p>
-                    <form>
-
-                    </form>
-            </div>
+                <div class="container page3-container">
+                    <div class="page3">
+                        <h3 class="title page3-title">online control</h3>
+                        <div class="line"><p>&#8213 <img src="img/cam.svg"> &#8213</p></div>
+                        <div class="video">
+                            <img class="video_background" src="img/image 3.png" width="817" height="434">   
+                            <img class="play"src="img/play.svg">
+                        </div>
+                        <hr color="#E3B873" size="1" width="480px" />
+                        <p class="subtitle page3-subtitle">At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. At any time, you can go to our website and monitor the progress of work in<br>your apartment. You can watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a link to the broadcast.</p>
+                        <form>
+                            <label for = "yes">Да</label> <!--Здесь мы создаём метку для тега input c id = "yes"-->
+                            <input type = "radio" id = "yes"name = "choice" value = "yes" checked> 
+                            <label for = "no">Нет</label><!--Здесь мы создаём метку для тега input c id = "no"-->
+                            <input type = "radio"id = "no" name = "choice" value = "no">
+                        </form><br>
+                    </div>
+                </div>
         </section>
     </main>
 </body>
