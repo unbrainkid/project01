@@ -18,7 +18,7 @@ body * {
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     
 }
@@ -32,11 +32,6 @@ body * {
 }
 .button a{
     text-decoration: none;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -92,6 +87,9 @@ body * {
     color:#E3B873;
     transition: .5s;
 }
+.header button{
+    font-style: italic;
+}
 
 .hero{
     background-image: url('../img/hero.jpg');
@@ -122,6 +120,10 @@ body * {
     
     z-index: 1;
     
+}
+
+.hero-container button{
+    font-style: italic;
 }
 .title{
     margin: 0;
@@ -256,21 +258,74 @@ body * {
 }
 .line{
     color: #E3B873;
-    font-size: 50px;
     text-align: center;
 }
 .video{
     position: relative;
-   
+    height: 434px;
+    background: #000;
+    width: 817px;
 }
-.video_background{
-    width: 100%;
-    height: auto;
+.video img {
+    opacity: 0.6;
+    object-fit: fill;
 }
+
 .play{
     position: absolute;
-    left: 50%;
-    bottom: 50%;
-    
-    
+    left: 41%;
+    bottom: 35%;    
+}
+.form{
+    display: grid;
+    gap:10px 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.check{
+    margin: 20px 0px;
+}
+
+.page4-title{
+    color: #131313;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.repair{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.repair img{
+    position: relative;
+}
+
+.repair_info{
+    position: absolute;
+    margin:-120px 31px 0px 31px;
+    width: 330px;
+    height: 286px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+
+}
+.repair_info h4{
+    margin-left: 40px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.repair_info button{
+    margin-top: 28px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
 }

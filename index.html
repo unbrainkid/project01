@@ -10,9 +10,9 @@
 <body>
     <header class="header"> 
        <div class="container header-content">
-        <div class="logo">
+            <div class="logo">
             IC "Repair Design Project"
-        </div>
+            </div>
 
         <nav>
             <ul class="header-navigation">
@@ -80,19 +80,91 @@
                         <h3 class="title page3-title">online control</h3>
                         <div class="line"><p>&#8213 <img src="img/cam.svg"> &#8213</p></div>
                         <div class="video">
-                            <img class="video_background" src="img/image 3.png" width="817" height="434">   
+                            <img src="img/image 3.png"  alt=" " width="817px" height="434px">   
                             <img class="play"src="img/play.svg">
                         </div>
-                        <hr color="#E3B873" size="1" width="480px" />
+                        <hr color="#E3B873" size="2" width="55px" />
                         <p class="subtitle page3-subtitle">At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. At any time, you can go to our website and monitor the progress of work in<br>your apartment. You can watch the live broadcast from one of our facilities!<br>Leave a request below and you will receive a link to the broadcast.</p>
-                        <form>
-                            <label for = "yes">Да</label> <!--Здесь мы создаём метку для тега input c id = "yes"-->
-                            <input type = "radio" id = "yes"name = "choice" value = "yes" checked> 
-                            <label for = "no">Нет</label><!--Здесь мы создаём метку для тега input c id = "no"-->
-                            <input type = "radio"id = "no" name = "choice" value = "no">
-                        </form><br>
+                        <form class="form">
+                            <div>
+                                <label for="Name">Name</label><br>
+                                <input type="text" placeholder="What is your name:">
+                            </div>
+                            <div>
+                                <label for="Name">Phone</label><br>
+                                <input type="text" placeholder="Your phone number:">
+                            </div>
+                            <button class="button"><a href="#">SUBMIT</a></button>
+                            
+                        </form>
+                        <label class="check">
+                            <input type="checkbox" checked="checked">I agree to the processing of personal data
+                            <span class="checkmark"></span>
+                        </label>
+                        
+                        <br>
                     </div>
                 </div>
+        </section>
+        <section>
+            <div class="container page4-container">
+                <h3 class="title page4-title">types of repair</h3>
+                <div class="line"><p>&#8213 <img src="img/cam.svg"> &#8213</p></div>
+                <div class="repair">
+                    <div>
+                        <img src="img/redecoration.jpg" alt="">
+                        <div class="repair_info">
+                            <h4>Redecorating</h4>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="button"><a href="#">from 900 rub / m&#178</a></button>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <img src="img/overhaul.jpg" alt="">
+                        <div class="repair_info">
+                            <h4>Overhoul</h4>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="button"><a href="#">from 1800 rub / m&#178</a></button>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <img src="img/designer_repair.jpg" alt="">
+                        <div class="repair_info">
+                            <h4>Designer repair</h4>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="button"><a href="#">from 4000 rub / m&#178</a></button>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
         </section>
     </main>
 </body>
