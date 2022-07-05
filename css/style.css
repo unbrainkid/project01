@@ -28,6 +28,8 @@ body * {
     border: 1px solid #E3B873;
     border-radius: 2px;
     padding: 13px 33px;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
        
 }
 .button a{
@@ -41,7 +43,7 @@ body * {
     background: none;
     text-decoration: none;
     border: 1px solid #FFFFFF;
-        
+    box-shadow: none;
 }
 
 .logo{
@@ -256,10 +258,7 @@ body * {
     
     color: #363636;
 }
-.line{
-    color: #E3B873;
-    text-align: center;
-}
+
 .video{
     position: relative;
     height: 434px;
@@ -280,11 +279,35 @@ body * {
     display: grid;
     gap:10px 50px;
     grid-template-columns: repeat(3, 1fr);
-}
-.check{
-    margin: 20px 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    
 }
 
+.form label{
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.page3 input{
+    font-size: 13px;
+    line-height: 21px;
+    color:black;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    
+
+}
+
+.check{
+    margin: 20px 0px;
+    font-size: 14px;
+}
+
+.page4-container{
+    text-align: center;
+}
 .page4-title{
     color: #131313;
     font-size: 20px;
@@ -294,9 +317,13 @@ body * {
 
 .repair{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    
+}
+.repair_column{
+    min-height: 630px;
 }
 .repair img{
     position: relative;
@@ -304,18 +331,23 @@ body * {
 
 .repair_info{
     position: absolute;
+    text-align: left;
     margin:-120px 31px 0px 31px;
     width: 330px;
     height: 286px;
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    font-style: normal;
+    font-weight: normal;
 
+}
+.repair_info ul{
+    font-family: Nunito Sans;
+    color: #959595;
 }
 .repair_info h4{
     margin-left: 40px;
     font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #363636;
@@ -323,9 +355,302 @@ body * {
 .repair_info button{
     margin-top: 28px;
     font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
+    
+}
+.page4_2{
+    margin-top: 125px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.page4_2_list{
+    background-image: url(..//img/back4_2.png);
+    height:645px;
+    width: 703px;
+    text-align: left;  
+    display: grid;
+    row-gap: 100px; 
+    
+}
+.page4_2_list div{
+    display: inline-block;
+    
+}
+.page4_2_list-subtitle{
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    vertical-align:middle;
+}
+
+ .circle{
+    margin-left: 100px;
+    width: 61px;
+    height: 61px;
+    background: #E3B873;
+    padding: 10px;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+
+ }
+ .page4_2_table{
+    background: #131313;
+    height: 509px;
+    width:506px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    display: grid;
+    grid-template-rows: auto;
+    text-align: left;
+    
+ }
+ .page4_2-form{
+     display: flex;
+     flex-direction: column;
+     margin: 0 49px;
+     
+
+ }
+ .page4_2_table-subtitle{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 28px;
+    
+ }
+ .page4_2-form label{
+    color: rgba(255, 255, 255, 0.5);
+ }
+ .page4_2-input{
+    background: #131313;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 14px;
+    
+ }
+ .form_hr{
+    background: rgba(255, 255, 255, 0.15);
+ }
+
+ .page4_2-form button{
+     height: 51px;
+     width: 213px;
+     align-self: flex-end;
+     margin:0;
+ }
+ .page4_end{
+     text-align: right;
+     display: flex;
+     justify-content: end;
+
+ }
+ .page4_end_img{
+    align-self: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #E3B873;
+    align-items: center;
+    
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+ }
+
+ .page4_end_img img{
+   
+    margin:16px;
+ }
+ .page4_end-subtitle
+ {
+    margin: 0 32px 0 25px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    align-self: center;
+ }
+
+ .page5-container{
+    margin-top: 260px;
+    background-image: url('../img/5back.png');
+    background-size: cover;
+    height: 864px;
+    
+    
+    position: relative;
+    
+
+ }
+ .page5-container:before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .75);
+ }
+ .page5{
+     position: absolute;
+     display: grid;
+     grid-template-columns: 544px 354px 354px;
+     column-gap: 43px;
+ }
+ .page5_text
+ {
+     margin-left: 100px;
+     margin-top: 137px;
+
+ }
+ .page5-title{
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+    
+ }
+ 
+ .page5-subtitle{
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    list-style: none;
+    padding-inline-start: 0;
+    
+ }
+ .page5-subtitle li{
+    margin-top: 15px;
+ }
+ .page5-subtitle li:hover{
+    color:#E3B873;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+    transition: .5s;
+    width: 70%;
+}
+.page5_img1{
+    margin-top: -41px;
+}
+.page5_img1 :first-child{
+    margin-bottom: 38px;
+}
+.page5_img2{
+    margin-top: -112px;
+}
+.page5_img2 :first-child{
+    margin-bottom: 38px;
+}
+.page6-container{
+    margin-top: 110px;
+    align-items: center;
+    text-align:center;
+}
+
+.line{
+    margin: 16px 0px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 36px 40px 35px;
+}
+.page6-repair{
+    margin-top: 40px;
+    
+}
+.client{
+    width:376px;
+    height:428px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+
+}
+.client_img{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.client_img img{
+    border-radius: 50%;
+    
+}
+
+.page6-title{
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: none;
+    color: #181818;
+    text-align: left;
+
+}
+.page6-subtitle{
+    width: 324px;
+    height: 216px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    text-align: left;
+
+}
+.page6-button{
+    width: 294px;
+    height: 54px;
+    margin:100px 0 0 -80px ;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;   
+    padding: 0;
+    
+}
+.page6-button a{
+    
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    margin-top: -9px;
+    margin-left: 12px;
+    margin-right: 10px;
+        
+}
+
+.page7-container{
+    
+    margin-top: 120px;
+    background-image: url('../img/back7.png');
+    
+
+}
+.page6-page4_2_table{
+    
+    height: 445px;
+    width:883px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.maps{
+    background-image: url('../img/back7_2.svg');
+    height: 954px;
+    
 }
